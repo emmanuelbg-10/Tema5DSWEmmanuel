@@ -1,9 +1,3 @@
-<?php
-require 'control.php';
-control(1);
-
-$username = $_SESSION['username'];
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +6,6 @@ $username = $_SESSION['username'];
   <title>Document</title>
 </head>
 <body>
-  <h1>Bienvenido <?=$username?></h1>
-  <p><a href="login.php">Cerrar sessión</a></p>
+  
 </body>
 </html>

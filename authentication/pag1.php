@@ -1,3 +1,7 @@
+<?php
+require 'control.php';
+control(2);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +10,6 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Pagina 1</h1>
+  <h1>Página 1</h1>
 </body>
 </html>
