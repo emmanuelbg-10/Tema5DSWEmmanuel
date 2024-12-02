@@ -5,7 +5,7 @@ if(isset($_GET['id'])){
   $employee = array_filter($employees, fn($e) => $e['id'] == $_GET['id']);
   $employee = array_pop($employee);
   if($employee) {
-    echo json_encode($employee);
+    echo json_encode($employee, JSON_PRETTY_PRINT);
   } else {
     http_response_code(404);
   }
