@@ -6,6 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <h1>Página de inicio</h1>
+  <a href="employee.php">Empleados</a>
 </body>
 </html>
